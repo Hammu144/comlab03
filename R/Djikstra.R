@@ -14,7 +14,7 @@
 #'
 #'
 
-dijkstra<-function(wiki_graph, init_node){
+dijkstra<-function(graph, init_node){
   vec <- names(graph)
   stopifnot("v1" %in% vec, "v2" %in% vec, "w" %in% vec , init_node %in% graph$v1, init_node %in% graph$v2  )
 
