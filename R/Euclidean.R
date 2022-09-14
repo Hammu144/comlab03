@@ -17,7 +17,7 @@
 euclidean <-  function(a,b){
 if(a < 0 ){a=a*-1}
 if(b < 0 ){b=b*-1}
-
+stopifnot(is.numeric(a),is.numeric(b))
   if (a > b){
     small_num = b
   }else{
