@@ -1,8 +1,10 @@
 #' Euclidean algorithm
 #' Finding greatest common divisor of two integers
-#' By providing any two numbers and we can find highest common divisor for given
+#'
+#' @description By providing any two numbers and we can find highest common divisor for given
 #' number. This function make things easy for us to
 #' get highest divisor for numbers.
+#'
 #' @param a is any integer number
 #' @param  b is also an integer number
 #' @export
@@ -11,7 +13,7 @@
 #' euclidean(10,1000)
 #'
 #' @return This function returns a \code{number}
-#' @notes https://en.wikipedia.org/wiki/Euclideanalgorithm.
+#' @references \url{https://en.wikipedia.org/wiki/Euclideanalgorithm.}
 
 
 euclidean <-  function(a,b){
